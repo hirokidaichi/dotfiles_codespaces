@@ -13,5 +13,3 @@ function fish_user_key_bindings
     bind \ce ghqcode
 end
 
-# あああ
-ba
