@@ -1,0 +1,17 @@
+
+[alias]
+    # いい感じのグラフでログを表示
+    graph = log --graph --date=short --decorate=short --pretty=format:'%Cgreen%h %Creset%cd %Cblue%cn %Cred%d %Creset%s'
+    gr    = log --graph --date=short --decorate=short --pretty=format:'%Cgreen%h %Creset%cd %Cblue%cn %Cred%d %Creset%s'
+    st    = status
+    cm    = commit
+    #Untracked filesを表示せず，not stagedと，stagedだけの状態を出力する
+    stt   = status -uno
+    difff = diff --word-diff
+[github]
+	user = hirokidaichi
+[filter "media"]
+	clean = git-media-clean %f
+    smudge = git-media-smudge %f
+[core]
+	editor = code --wait
