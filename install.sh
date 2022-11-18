@@ -1,10 +1,8 @@
 #!/bin/sh
 
 sudo apt -y update 
-sudo apt -y install fish
-sudo apt -y install peco
-sudo apt -y install exa
-sudo apt -y install fd-find
+sudo apt -y install fish peco exa fd-find ripgrep
+
 #npm install -g zx
 #curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher
 
