@@ -13,3 +13,6 @@ function fish_user_key_bindings
     bind \ce ghqcode
 end
 
+alias bat="batcat"
+alias cat="batcat"
+alias fd="fdfind"
