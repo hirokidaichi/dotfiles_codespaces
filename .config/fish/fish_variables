@@ -3,9 +3,9 @@
 SETUVAR --path PYTHONPATH:\x2e/src
 SETUVAR ZO_CMD:zo
 SETUVAR Z_CMD:z
-SETUVAR Z_DATA:/home/codespace/\x2elocal/share/z/data
-SETUVAR Z_DATA_DIR:/home/codespace/\x2elocal/share/z
-SETUVAR Z_EXCLUDE:\x5e/home/codespace\x24
+SETUVAR Z_DATA:/home/vscode/\x2elocal/share/z/data
+SETUVAR Z_DATA_DIR:/home/vscode/\x2elocal/share/z
+SETUVAR Z_EXCLUDE:\x5e/home/vscode\x24
 SETUVAR __fish_initialized:3100
 SETUVAR _fisher_0rax_2F_fish_2D_bd_files:\x7e/\x2econfig/fish/functions/bd\x2efish\x1e\x7e/\x2econfig/fish/completions/bd\x2efish
 SETUVAR _fisher_fisherman_2F_getopts_files:\x7e/\x2econfig/fish/functions/getopts\x2efish
