@@ -1,11 +1,11 @@
-#!/usr/bin/bash
+#!/bin/sh
 
-sudo apt update 
-sudo apt install fish
-sudo apt install peco
-sudo apt install exa
-sudo apt install fd-find
-npm install -g zx
+sudo apt -y update 
+sudo apt -y install fish
+sudo apt -y install peco
+sudo apt -y install exa
+sudo apt -y install fd-find
+#npm install -g zx
 #curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher
 
 cp -r ./.config ~/
